@@ -25,7 +25,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://animewatchedlist.netlify.app">
     <img src="images/logo.svg" alt="Logo" width="300" height="300">
   </a>
 
@@ -105,19 +105,22 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+Below are the commands you can use to install the application.
 
 1. Clone the repo
    ```sh
    git clone https://github.com/marleneharms/fanime.git
+   cd fanime
    ```
-2. Install NPM packages
+2. Install NPM packages involved in backend
    ```sh
+   cd auth
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = "ENTER YOUR API";
+2. Install NPM packages involved in frontend
+   ```sh
+   cd auth-front
+   npm install
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -125,10 +128,18 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- USAGE EXAMPLES -->
 
 ## Usage
+Below are the commands you can use to get your app up and running.
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+1. First run api
+   ```sh
+    cd ./auth
+    npm run dev
+   ```
+2. Run frontend
+   ```sh
+   cd ./auth-front
+   npm start
+   ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -155,20 +166,20 @@ See the [open issues](https://github.com/marleneharms/fanime/issues) for a full 
 
 Marlene R. Harms -  marlene_harms@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/marleneharms/fanime)
+Project Link: [https://github.com/marleneharms/fanime](https://github.com/marleneharms/fanime)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/marleneharms/fanime.svg?style=for-the-badge
 [contributors-url]: https://github.com/marleneharms/fanime/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/marleneharms/fanime.svg?style=for-the-badge
 [forks-url]: https://github.com/marleneharms/fanime/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/marleneharms/fanime.svg?style=for-the-badge
 [stars-url]: https://github.com/marleneharms/fanime/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/marleneharms/fanime.svg?style=for-the-badge
 [issues-url]: https://github.com/marleneharms/fanime/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/marlene-harms
