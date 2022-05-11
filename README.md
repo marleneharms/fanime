@@ -66,15 +66,15 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://animewatchedlist.netlify.app)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Sometimes you lose the track of your favorite anime and you don't know where to look.  Or you just want to know what's on your list.  That's why I created this project. Here you can save your anime list and keep track of what you've watched and what you haven't.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+Most of this technologies are new to me and that is excavtly why I choosed them. 
 
 - [Bulma](https://bulma.io)
 - [Bcrypt](https://www.npmjs.com/package/bcrypt)
@@ -91,12 +91,12 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+This project is mainly composed of Node and React so make sure you have those installed.
+Also you need two .env one in the backend root and the other one in the front root. 
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+This is a node project, so you need to have node installed.
 
 - npm
   ```sh
@@ -129,6 +129,17 @@ Below are the commands you can use to install the application.
 
 ## Usage
 Below are the commands you can use to get your app up and running.
+Make sure to have the backend .env file in the following format:
+
+  ```sh
+     DB_CONNECT= "mongodb connection string"
+     TOKEN_SECRET= "secret string"
+     REFRESH_TOKEN_SECRET= "secret string"
+  ```
+And in the frontend .env file:
+  ```sh
+     REACT_APP_API_URL=  "api url"
+  ```
 
 1. First run api
    ```sh
@@ -183,4 +194,4 @@ Project Link: [https://github.com/marleneharms/fanime](https://github.com/marlen
 [issues-url]: https://github.com/marleneharms/fanime/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/marlene-harms
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/project-demo.png
